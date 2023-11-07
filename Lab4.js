@@ -56,7 +56,7 @@
 
     }, 2000); // Espera 2 segundos (2000 milisegundos) antes de continuar
 
-    //BORRANDO TODA LA PAGINA PARA HACER OTRA
+    //FIN DE BORRANDO TODA LA PAGINA PARA HACER OTRA
 
     setTimeout(function() {
     const firstParagraph = document.querySelector('body > p');
