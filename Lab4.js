@@ -12,7 +12,7 @@
 (function() {
     'use strict';
 
-    //BORRANDO TODA LA PAGINA PARA HACER OTRA
+    //BORRANDO TODA LA PAGINA PARA HACER OTRA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
     const body = document.body;
     while (body.firstChild) {
         body.removeChild(body.firstChild);
@@ -56,7 +56,7 @@
 
     }, 2000); // Espera 2 segundos (2000 milisegundos) antes de continuar
 
-    //FIN DE BORRANDO TODA LA PAGINA PARA HACER OTRA
+    //FIN DE BORRANDO TODA LA PAGINA PARA HACER OTRA////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
     setTimeout(function() {
     const firstParagraph = document.querySelector('body > p');
